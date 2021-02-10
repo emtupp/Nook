@@ -1,5 +1,6 @@
 .contact-box {
-  display: flex;
-  flex-direction: column;
+  bottom: 20px;
+  right: 200px;
   position: absolute;
+  font-family: 'Bodoni Moda', serif;
 }
