@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         {/* Hello World */}
       </header>
-      {/* <Contact /> */}
+      <Contact />
       <Background />
     </div>
   );
