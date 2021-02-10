@@ -1,14 +1,15 @@
 .story {
   position: absolute;
   width: 600px;
-  right: 0px;
+  right: 20px;
   top: 20px;
 }
 
-.description {
+.text {
   font-family: 'Bodoni Moda', serif;
   color: #660022;
   font-size: 1.5rem;
+  height: 200px;
 }
 
 .navigate {
@@ -20,6 +21,7 @@
 button {
   background-color: transparent;
   border: none;
+  outline: none;
   font-family: 'Bodoni Moda', serif;
   font-size: larger;
   cursor: pointer;
