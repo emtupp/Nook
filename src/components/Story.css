@@ -27,6 +27,7 @@ button {
   cursor: pointer;
   margin: 5px;
   width: 100px;
+  z-index: 10;
 }
 
 button:hover {
@@ -38,3 +39,9 @@ button:disabled {
   color: #94949e;
   pointer-events: none;
 }
+
+/* @media (max-width:900px) {
+  .text {
+    color: blue;
+  }
+} */
