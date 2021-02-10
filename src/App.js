@@ -1,16 +1,15 @@
 import './App.css';
 
 import Background from './components/Background.js';
-import Contact from './components/Contact.js';
+import Story from './components/Story.js';
+// import Contact from './components/Contact.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* Hello World */}
-      </header>
-      <Contact />
+      <Story />
       <Background />
+      {/* <Contact /> */}
     </div>
   );
 }
