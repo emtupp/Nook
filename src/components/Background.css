@@ -1,0 +1,32 @@
+.background {
+  height: 100%;
+  overflow: hidden;
+}
+
+.hrefs {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  z-index: 10;
+  cursor: pointer;
+}
+
+.fa_custom {
+  padding: 0px 15px;
+  color: #94949e;
+  z-index: 9;
+}
+
+.fa_custom:hover {
+  color: #707079;
+}
+
+.logo {
+  position: absolute;
+  width: 1000px;
+  top: 20px;
+}

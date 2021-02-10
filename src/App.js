@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Background from './components/Background.js';
+import Story from './components/Story.js';
+import Contact from './components/Contact.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Hello World
-      </header>
+      <Story />
+      <Contact />
+      <Background />
     </div>
   );
 }
