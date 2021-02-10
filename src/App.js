@@ -1,6 +1,6 @@
-import logo from './logo.png';
 import './App.css';
 
+import Background from './components/Background.js';
 import Contact from './components/Contact.js';
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
       <header className="App-header">
         {/* Hello World */}
       </header>
-      <Contact />
-      {/* <img src={logo} alt="Logo" />  */}
+      {/* <Contact /> */}
+      <Background />
     </div>
   );
 }
